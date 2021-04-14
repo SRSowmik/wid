@@ -1,0 +1,675 @@
+body{
+font-family: 'Josefin Sans', sans-serif;
+}
+#header-section .main-logo{
+	width:150px !important;
+	height:auto;
+	display:inline-block
+} 
+.main-logo{
+	margin-top:-11px
+}
+#header-section .search-icon{
+	background:#662D91;
+	padding:8px;
+	padding-right:20px;
+	padding-left:20px;
+	margin-left:-56px;
+	color:#fff !important;
+	height:40px !important;
+	position:absolute
+}
+#header-section .main-search{
+	height:20px !important
+}
+.departments-menu button:focus{
+	outline:none
+}
+.dropdown-menu.show{
+	display:block
+}
+/* ---shop-brand-section---  */
+#shop-brand-section .card{
+	width:100%;
+	height:auto
+}
+#shop-brand-section .card img{
+	width:100%;
+	height:150px
+}
+#shop-brand-section .card .see-all{
+	width:100%;
+	height:150px;
+	padding:10px
+}
+.shop-brand-img img{
+	width:50%;
+	height:170px;
+	padding:10px
+}
+
+
+
+
+
+.search-bar2{
+	font-size:15px;
+	background:#662D91;
+	width:50px;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:-11px;
+	color:#fff;
+	border-radius:1px;
+	overflow:hidden
+}
+.search-bar1{
+	font-size:19.5px;
+	background:#662D91;
+	width:30px;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:4.5px;
+	padding-bottom:6px;
+	margin-left:-11px;
+	color:#fff;
+	border-radius:1px
+}
+#beauty-bodycare.search-bar3{
+	font-size:15px;
+	background:#662D91;
+	width:50px;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:-11px;
+	color:#fff;
+	border-radius:1px
+}
+
+#bags-luggage-section .search-bar3{
+	background:#662D91;
+	margin-left:-39px;
+	padding-top:-10px;
+	padding:8px;
+	padding-top:-2px;
+	padding-right:10px;
+	padding-left:10px;
+	color:#fff;
+	font-size:15px
+}
+
+.product-search-bar{
+	height:32px ;
+	width:220px
+}
+#bags-luggage-section h6, #beauty-bodycare h6{
+	font-size:15px
+}
+#beauty-bodycare .search-bar3{
+	background:#2c2c2c;
+	min-height:30px !important;
+	margin-left:-40px;
+	padding-top:-7px;
+	padding:4px;
+	padding-top:-2px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff
+}
+#beauty-bodycare .product-image{
+	overflow:hidden
+}
+#beauty-bodycare .product-image img{
+	width:200px;
+	height:210px;
+	margin-bottom:7px;
+	transition:0.5s;
+}
+
+#beauty-bodycare .product-image:hover img{
+	transform: scale(1.1);
+}
+#beauty-bodycare .product-image .card{
+	width:100%;
+	/* height: */
+}
+
+.product-image .card{
+	width:100% ;
+	height:370px ;
+}
+.product-image .card img{
+	width:200px;
+	height:250px
+}
+.product-image .card h6{
+	margin-top:15px;
+}
+#related-ptoduct .related-image{
+	 overflow:hidden
+}
+#related-ptoduct .related-image img{
+	transition:0.5s;
+}
+#related-ptoduct .related-image{
+	overflow:hidden;
+}
+#related-ptoduct .related-image:hover img{
+	transform: scale(1.1)
+}
+@media (max-width: 576px){
+	#related-ptoduct .product{
+	margin: 0 auto;
+}	
+}
+#bags-luggage-section .product-image img{
+	transition:0.5s;
+}
+#bags-luggage-section .product-image:hover img{
+	transform: scale(1.1);
+}
+/* --- Related Product End --- */
+.fa-caret-down{
+	display:none
+}
+
+
+/* ---------------- */
+.imgBox{
+	width:100%;
+	margin:50px auto 20px
+}
+.imgBox img{
+	width:450px;
+	height: auto;
+	margin:0 auto;
+	border:3px solid #fff;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5)
+}
+@media (max-width: 576px){
+.imgBox img{
+	margin: 0 20px;
+}
+}
+.thumb{
+	margin:0;
+	padding:0;
+	display:flex;
+}
+.thumb li{
+	list-style:none;
+	margin:0 10px
+}
+.thumb li img{
+	border:3px solid #fff;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+	padding-left:0
+}
+
+
+
+
+
+
+
+@media (max-width: 667px){
+#bags-luggage-section .product-image .card{
+	padding: auto;
+	width:100% !important;
+	height:100% !important;
+}
+#bags-luggage-section .product-image img{
+	/* transition:0s; */
+	
+	width:auto !important;
+	height:auto!important;
+}
+/* #bags-luggage-section .product-image:hover img{
+	transform: scale(1);
+} */
+/* .product-image .card img{
+	width:50px !important;
+	height:10px!important; 
+} */
+}
+
+/* @media (max-width: 576px){
+.product-image .card img{
+	width:50px !important;
+	height:50px!important; 
+}
+} */
+
+
+@media (max-width: 576px){
+#shop-brand-section .card img{
+	width:100%;
+	height:120px !important
+}
+}
+
+@media (max-width: 576px){
+#shop-stor-section .card img{
+	width:100%;
+	height:180px !important
+}
+}
+
+@media (max-width: 576px){
+#shop-brand-section .card .see-all{
+	width:100%;
+	height:120px;
+	padding:10px;
+	font-size:13px
+}
+}
+
+@media (max-width: 576px){
+#bags-luggage-section h6{
+	font-size:14px;
+}
+ #beauty-bodycare h6{
+	font-size:15px;
+ }
+}
+
+@media (max-width: 992){
+#bags-luggage-section h6{
+	font-size:16px;
+}
+}
+
+@media (max-width: 667px){
+#bags-luggage-section h6{
+	font-size:14px;
+	font-weight:normal
+}
+}
+@media (max-width: 667px){
+ #beauty-bodycare h6{
+	font-size:14px;
+	font-weight:normal
+ }
+}
+
+
+@media (max-width: 576px){
+#beauty-bodycare .product-image img{
+	width:180px;
+	/* height:180px; */
+}
+}
+@media (max-width: 768px){
+.product-box .card{
+    width: 80%;
+    height: auto;
+}
+}
+
+@media (max-width: 576px){
+.product-box .card{
+    width: 100%;
+    height: 280px;
+}
+}
+ 
+@media (max-width: 768px){
+.modal-dialog{
+	width:70%;
+	margin-top:-20px;
+	transform: translate(2%, 0) !important;
+	right:0 !important
+}
+}
+@media (min-width: 576px){
+.modal-dialog{
+	width:100%;
+	margin-top:30px;
+	transform: translate(2%, 0) !important;
+	right:0 !important;
+	margin-right:10px
+}
+}
+@media (max-width: 992px){
+.right-icons .fa-comments{
+	/* display:none */
+}
+}
+@media (max-width: 768px){
+.right-icons {
+	top:-60px;
+	font-size:14px !important
+}
+}
+@media (max-width: 768px){
+.right-icons {
+	margin-top:-15px;
+	margin-right: 0;
+	display:flex
+}
+}
+
+@media (max-width: 325px){
+.right-icons .fa{
+	margin-top:-19px;
+	font-size:15px !important;
+}
+}
+@media (max-width: 992px){
+.product-image .card h6{
+	font-size:14px !important;
+	font-size:normal
+}
+}
+/* @media (max-width: 992px){
+.product-image .card img{
+	width:180px;
+	height:120px;
+}
+} */
+/* @media (max-width: 768px){
+.product-image .card img{
+	width:180px;
+	height:auto;
+}
+} */
+
+@media (max-width: 576px){
+	.dropdown-menu{
+	background:;
+	width:50%;
+	color:#fff;
+	/* position:sticky; */
+	z-index:1;
+}	
+}
+@media (max-width: 576px){
+	.middle-menu{
+	margin-bottom: -35px;
+}	
+}
+/*
+.dropdown-menu li:hover .multi-sub{
+	display:block;
+	top:0px;
+	height:300px;
+	width:200px;
+	margin-left:14.4%;
+	padding:0 70px 10px;
+	padding-left:10px;
+	position:absolute;
+	background:#ececec;
+	box-shadow:1px  1px 4px rgba(0,0,0,0.2);
+	margin-left:214px;
+*/
+@media (max-width: 576px){
+	.dropdown-menu{
+	background:#ECECEC;
+	color:black!important
+}	
+}
+@media (max-width: 576px){
+	.dropdown-menu li a{
+	/* color:black; */
+	font-size:15px;
+}	
+}
+@media (max-width: 576px){
+	.dropdown-menu li:hover .multi-sub{
+	/* display:block; */
+	height:150px;
+	/* width:55%; */
+	z-index: 1;
+	/* margin-left:5.4%;
+	padding:0 70px 0px;
+	padding-left:18px;
+	position:static;
+	background:#222;
+	color:#fff; */
+}	
+}
+@media (max-width: 380px){
+	.dropdown-menu li:hover .multi-sub{
+	/* display:block; */
+	height:150px;
+	z-index: 1;
+		
+	margin-left:65.4%;
+	/* margin-left:5.4%;
+	padding:0 70px 0px;
+	padding-left:18px;
+	position:static;
+	background:#222;
+	color:#fff; */
+}	
+.dropdown-submenu ul {
+	/* display:block; */
+	/* z-index: 1; */
+		/* width:5px; */
+		/* margin-left:-19.4%; */
+	/* position:absolute; */
+	/* margin-left:5.4%;
+	padding:0 70px 0px;
+	position:static;
+	background:#222;
+	color:#fff; */
+}
+}
+@media (max-width: 576px){
+	.dropdown-menu .fa-angle-right{
+	display:none
+}	
+}
+@media (max-width: 576px){
+	.fa-caret-down{
+	display:block;
+	margin-top:-12px !important
+}
+}
+@media (max-width: 576px){
+	.car-hide{
+	display:none;
+}
+}
+
+@media (max-width: 768px){
+#shop-page-section .product-main-img img {
+    width: 100%;
+    /* height: auto; */
+    text-align: center;
+}
+}
+
+@media (max-width: 576px){
+#shop-page-section {
+    margin-top: -20px;
+}
+}
+
+@media (max-width: 992px){
+.shop-details-ariya select{
+	width:50% !important
+}
+}
+
+/*
+@media (max-width: 576px){
+	.dropdown-menu li a{
+	position:;
+	color:#fff;
+	list-style:none;
+	font-size:14px;
+	padding-left:20px;
+	
+	display:block;
+	border-left:2px solid transparent;
+}	
+}
+
+@media (max-width: 576px){
+	.dropdown-menu ul ul{
+	position:static;
+	display:none 
+}
+}
+
+@media (max-width: 576px){
+	.dropdown-menu ul ul{
+	
+}
+}
+@media (max-width: 576px){
+	.dropdown-menu ul ul:hover{
+	display:block !important
+}
+}
+*/
+
+
+
+
+
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  /* position: absolute; */
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+.text-purple{
+	color:#662D91;
+}
+
+.sec-car {
+/* width: 50%; */
+}
+
+.sec-car img {
+  width: 100%;
+  height: 150px; 
+}
+
+
+@media (max-width: 576px){
+.camp-card-btn{
+    font-size: 7.5px;
+}
+.camp-card{
+    padding:2px;
+}
+}
+
+.camp-header{
+	background-color: #662D91;
+	color: white;
+}
+
+/* .background {
+	background: url('https://p.bigstockphoto.com/eIdTXLbqQilMs9xbjvcs_bigstock-Aerial-View-Of-Sandy-Beach-Wit-256330393.jpg');
+    position: relative;
+}
+
+.sec-car-1{
+    background-color: rgba(38, 141, 89, 0.295);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	color: white;
+} */
+.sec-car-1{
+	/* background: url('https://p.bigstockphoto.com/eIdTXLbqQilMs9xbjvcs_bigstock-Aerial-View-Of-Sandy-Beach-Wit-256330393.jpg'); */
+	background: linear-gradient(to right,rgba(0, 0, 0, 0.774), rgba(0,0,0,.5)),
+    url('https://p.bigstockphoto.com/eIdTXLbqQilMs9xbjvcs_bigstock-Aerial-View-Of-Sandy-Beach-Wit-256330393.jpg');
+	color: white;
+}
+.sec-car-2{
+	background: linear-gradient(to right,rgba(224, 7, 7, 0.774), rgba(255, 146, 146, 0.5)),
+    url('https://jssors8.azureedge.net/demos/image-slider/img/faded-monaco-scenery-evening-dark-picjumbo-com-image.jpg');
+	color: white;
+}
+.sec-car-3{
+	background: linear-gradient(to right,rgba(69, 18, 255, 0.774), rgba(70, 216, 216, 0.5)),
+    url('https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg');
+	color: white;
+}
+
+
+.check th{
+	text-align: left;
+    padding: 20px;
+    color: #fff;
+    background: #662D91;
+    font-weight: normal;
+}
+
+.check-table{
+	width: 100%;
+	
+}
+
+.check-sum th{
+	text-align: left;
+    padding: 20px;
+    font-weight: normal;
+}
+
+
+@media (max-width: 576px){
+	.big_img{
+		display:inline;
+	}
+.check{
+	padding: 0px 15px 0px 0px;
+}
+.check-sum{
+	padding: 0px 45px 0px 0px;
+}
+#ModalProfile h5 {
+	font-size:15px;
+	margin-left: -15px;
+}
+#ModalProfile small {
+	font-size:10px;
+	margin-left: -15px;
+}
+#ModalProfile button {
+	font-size:10px;
+	
+}
+#ModalNotification {
+/* width:75%; */
+margin-left:-15px ;
+}
+#ModalCard table{
+	margin-left: -17px;
+}
+}
+
+@media (max-width: 380px){
+.check{
+	/* padding: 0px 5px 0px -50px; */
+	margin-left: -12px;
+	font-size:15px;
+}
+.check-sum{
+	padding: 0px 30px 0px 0px;
+}
+}
